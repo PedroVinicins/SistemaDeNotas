@@ -1,5 +1,4 @@
 function cadPessoa() {
-    // Obtém os valores dos inputs
     var materia = document.getElementById('materias').value;
     var trabalho = document.getElementById('trabalho').value;
     var prova = document.getElementById('prova').value;
@@ -10,7 +9,6 @@ function cadPessoa() {
         return;
     }
 
-    // Cria uma nova linha e adiciona à tabela
     var tabela = document.getElementById('tabelaMaterias').getElementsByTagName('tbody')[0];
     var novaLinha = tabela.insertRow();
 
