@@ -1,0 +1,69 @@
+*{
+    font-style: initial;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url(open\ wallpe.jpg);
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 1px;
+    margin: 100px auto;
+    padding: 200px;
+    border: 1px solid #ccc;
+    border-radius: 10px;    
+    background-color: #ffffff;
+    transition: all 0.3s ease;
+}
+
+.container:hover{
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+input{
+    display: block;
+    margin: 10px;
+    padding: 8px;
+    border: 1px solid;
+    border-radius: 3px;
+    border-collapse: collapse;
+    outline: none;
+}
+
+ .btnEnter{
+    display: block;
+    width: 200px;
+    margin: 2px auto;
+    padding: 4%;
+    cursor: pointer;
+    border: 1px solid;
+    border-radius: 4px;
+    background: rgb(37, 212, 171);
+}
+
+.btnEnter:focus
+    .btnEnter:hover{
+    outline: none;
+    background: rgb(60, 104, 94);
+}
+
+.btnEnter:disabled{
+    cursor: not-allowed;
+    background: #746e6e;
+}
+
+
+label{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+}

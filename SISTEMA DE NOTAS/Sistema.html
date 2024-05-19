@@ -1,0 +1,56 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciamento de Notas Escolares</title>
+</head>
+<body>
+    <header class="header">
+        <button onclick="abrirHTML('logo')" class="logo">Aluno</button>
+        <nav class="navbar">
+            <a href="/MEU-SITE/index.html">Notas</a>
+        </nav>
+    </header>
+
+    <div class="main-center">
+        <div id="dtPessoas">
+            <table id="tabelaMaterias">
+                <thead>
+                    <tr>
+                        <td>Matéria</td>
+                        <td>Notas de Trabalhos</td>
+                        <td>Notas da Prova</td>
+                    </tr>
+                </thead>
+                <tbody>
+            </tbody>
+        </table>
+        </div>
+    </div>
+
+    <div class="conteiner">
+        <select id="materias" name="materias">
+            <option value="matematica">Matemática</option>
+            <option value="portugues">Português</option>
+            <option value="ciencias">Ciências</option>
+            <option value="historia">História</option>
+        </select>
+
+        <div id="dfPessoas">
+            <form name="fPessoas">
+              
+                <label for="trabalho">Trabalho</label>
+                <input type="text" id="trabalho" name="trabalho" placeholder="Notas" maxlength="3" required>
+              
+                <label for="prova">Prova</label>
+                <input type="text" id="prova" name="prova" placeholder="Nota" maxlength="3" required>
+                
+                <input type="button" value="Salvar" id="input" class="btninput" onclick="cadPessoa()">
+            </form>
+        </div>
+    </div>
+
+    <script src="Script.js"></script>
+</body>
+</html>

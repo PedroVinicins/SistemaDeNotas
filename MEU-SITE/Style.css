@@ -1,0 +1,19 @@
+body{
+    background-color: antiquewhite;
+}
+
+h2{
+    font-family: sans-serif;
+
+}
+
+.text{
+    margin: 100px;
+    width: auto;
+    padding: 12pc;
+}
+
+p{
+    margin: auto;
+    font-size: large;
+}

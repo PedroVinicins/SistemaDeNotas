@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+}
+
+h2{
+    width: 100px;
+}
+
+input{
+    margin: 0;
+    width: 100px;
+    cursor: pointer;
+}
+
+.main-center{
+    width: 100vw;
+    height: 10vh auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-left{
+    width: 900px;
+    height: 10vh;
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+}
+
+.main-linha{
+    display: flex;
+    margin: 10px;
+    border-radius: 10px;    
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease;
+}
+
+.main{
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.main :hover{
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.BtnSalva{
+    border: solid 1px #00ffbf;
+    border-radius: 10px;
+    width: 200px;
+    margin: 10px;
+}
+
+.btnApagar{
+    border: solid 1px #ff0000;
+    border-radius: 10px;
+    width: 200px;
+    margin: 10px;
+
+}
