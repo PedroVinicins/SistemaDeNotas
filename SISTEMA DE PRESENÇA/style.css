@@ -25,6 +25,7 @@ input{
 .main-left{
     width: 900px;
     height: 10vh;
+    padding: auto;
     display: flex; 
     justify-content: center;
     align-items: center; 
