@@ -9,12 +9,12 @@ h2{
 input{
     margin: 0;
     width: 100px;
-    cursor: pointer;
+    cursor: pointer;    
 }
 
 .main-center{
     width: 100vw;
-    height: 10vh auto;
+    height: 100vh auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -34,7 +34,7 @@ input{
 .main-linha{
     display: flex;
     margin: 10px;
-    border-radius: 10px;    
+    height: 30px;
     justify-content: center;
     align-items: center;
     transition: all 0.3s ease;
