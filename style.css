@@ -119,3 +119,8 @@ select :hover{
     font-weight: 100;
     text-decoration: none;
 }
+
+.btnLimp{
+    background: rgb(190, 113, 113);
+    cursor: pointer;
+}
