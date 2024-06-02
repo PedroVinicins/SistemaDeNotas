@@ -1,1 +1,4 @@
-/ /sistema.html 200
+[[redirects]]
+from = "/*"
+to = "/sistema.html"
+status = 200
