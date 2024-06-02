@@ -8,7 +8,7 @@ document.getElementById('salvarBtn').addEventListener('click', function() {
 
 function abrirHTML(pagina) {
     if (pagina === 'logo') {
-        window.open('/Notas/index.html', '_blank');
+        window.open('/site-/Meusite.html', '_blank');
 ///Notas/index.html
     }
 }
