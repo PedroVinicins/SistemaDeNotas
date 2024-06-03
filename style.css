@@ -87,7 +87,6 @@ select :hover{
     padding: 15px;
     max-width: 100%;
     overflow-x: auto;
-
 }
 
 .conteiner{
@@ -124,3 +123,47 @@ select :hover{
     background: rgb(190, 113, 113);
     cursor: pointer;
 }
+  
+  /* On screens that are 600px or less, set the background color to olive */
+  @media screen and (max-width: 600px) {
+    .container {
+        display: flex;
+        width: 100%;
+    }
+  }
+
+ @media screen and (max-width: 600px) {
+    input{
+        display: block;
+        width :100px ;
+    }
+ }
+
+
+ @media screen and (max-width: 600px) {
+    .header{
+        display: block;
+        width :100pc;
+        align-items: center;
+        justify-content: space-between;
+    }
+ }
+
+ @media screen and (max-width: 600px) {
+    .main-center{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+    padding: 11px;
+    max-width: 120%;
+    overflow-x: 100pc;
+    }
+ }
+
+ @media screen and (max-width: 600px) {
+    table, td{
+        font-size: 15px;
+        width: 17pc;
+        border-collapse: 1px collapse;
+    }
+ }
