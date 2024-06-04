@@ -1,0 +1,48 @@
+@media  screen  and (max-width: 600px) {
+    body{
+        height: 100pc;
+        width:auto;
+    }
+}
+  /* On screens that are 600px or less, set the background color to olive */
+  @media screen and (max-width: 600px) {
+    .container {
+        display: flex;
+    }
+  }
+
+ @media screen and (max-width: 600px) {
+    input{
+        display: block;
+        width :100px ;
+    }
+ }
+
+
+ @media screen and (max-width: 600px) {
+    .header{
+        display: block;
+        width : 27pc;
+        align-items: center;
+        justify-content: space-between;
+    }
+ }
+
+ @media screen and (max-width: 600px) {
+    .main-center{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+    padding: 11px;
+    max-width: 120%;
+    overflow-x: 100pc;
+    }
+ }
+
+ @media screen and (max-width: 600px) {
+    table, td{
+        font-size: 15px;
+        width: 17pc;
+        border-collapse: 1px collapse;
+    }
+ }
