@@ -7,8 +7,8 @@
 }
 
 @media screen and (max-width: 600px) {
-    table{
-        width: 360px;
+    table ,td{
+        width: 200px;
     }
 }
 
@@ -25,6 +25,7 @@
         align-items: start;
         flex-direction: column;
         justify-content: center;
+        width: 15pc auto;
     }
 }
 
@@ -59,6 +60,17 @@
 @media screen and (max-width: 600px) {
     label{
         display: block;
+    }
+    
+}
+
+@media screen and (max-width: 600px) {
+    .inputfp{
+        width: 11pc auto;
+        padding: 8px;
+        border: 1px solid #e0e0e0;
+        border-radius: 5px;
+        outline: none;
     }
     
 }
