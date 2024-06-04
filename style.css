@@ -10,10 +10,9 @@
 
 body{
     font-family: sans-serif;
-    background: url();
 }
 
-input{
+.inputfp{
     margin: 10px auto;
     padding: 8px;
     border: 1px solid #e0e0e0;
@@ -21,7 +20,7 @@ input{
     outline: none;
   }
 
-input:hover{
+.inputfp:hover{
     outline: none;
     box-shadow:  rgba(0, 0, 0, 0.1);
     border-color: cornflowerblue;
@@ -33,6 +32,7 @@ table, td{
     font-size: 14px;
     width: 600px;
     border-collapse: 1px collapse;
+    border-radius: 5px;
 }
 
 td , tr{
@@ -46,23 +46,11 @@ caption{
     margin: 5px 0;
 }
 
-select{
-    display: flex;
-    border: 1px solid #e0e0e0;
-    border-radius: 2px;
-    margin: 10px;
-    padding: 8px;
-}
-select :hover{
-    outline: none;
-    box-shadow:  rgba(0, 0, 0, 0.1);
-    border-color: cornflowerblue;
-}
 
 .header{
     top: 0;
     left: 0;
-    width: 100%;
+    width: 100% auto;
     padding: 20px 100px;
     background: rgb(60, 104, 94);
     display: flex;
@@ -107,8 +95,14 @@ select :hover{
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
 
+
 .btninput{
-    background: rgb(113, 190, 172);
+    background-color: rgb(124, 182, 124);
+    margin: 10px auto;
+    padding: 8px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    outline: none;
     cursor: pointer;
 }
 
@@ -120,6 +114,34 @@ select :hover{
 }
 
 .btnLimp{
-    background: rgb(190, 113, 113);
+    background-color: rgb(167, 103, 103);
+    margin: 10px auto;
+    padding: 8px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+}
+
+.btninput:hover{
+    outline: none;
+    box-shadow:  rgba(0, 0, 0, 0.1);
+    border-color: rgb(0, 255, 42);
+}
+
+.btnLimp:hover{
+    outline: none;
+    box-shadow:  rgba(0, 0, 0, 0.1);
+    border-color: rgb(255, 0, 0);
+}
+
+
+.selectm{
+    display: flex;
+    width: auto;
+    border: 1px solid #e0e0e0;
+    border-radius: 2px;
+    margin: 10px;
+    padding: 8px;
     cursor: pointer;
 }

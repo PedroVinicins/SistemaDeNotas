@@ -1,48 +1,64 @@
-@media  screen  and (max-width: 600px) {
+@media screen and (max-width: 600px) {
     body{
-        height: 100pc;
-        width:auto;
+       display: block;
+       width: 27pc auto;
+       height: 100px;
     }
 }
-  /* On screens that are 600px or less, set the background color to olive */
-  @media screen and (max-width: 600px) {
-    .container {
-        display: flex;
+
+@media screen and (max-width: 600px) {
+    table{
+        width: 360px;
     }
-  }
+}
 
- @media screen and (max-width: 600px) {
-    input{
-        display: block;
-        width :100px ;
-    }
- }
-
-
- @media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
     .header{
         display: block;
-        width : 27pc;
+        width: 100% auto;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .conteiner{
+        display: flex;
+        align-items: start;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .selectm{
+        display: flex;
+        width: 10pc;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+   .btnLimp{
+        display: flex;
+        width: 200px;
+        justify-content: center;
         align-items: center;
-        justify-content: space-between;
+        flex-direction: row;
     }
- }
+}
 
- @media screen and (max-width: 600px) {
-    .main-center{
-    display: flex;
-    justify-content: center;
-    padding-bottom: 10px;
-    padding: 11px;
-    max-width: 120%;
-    overflow-x: 100pc;
+@media screen and (max-width: 600px) {
+    .btninput{
+        display: flex;
+        width: 200px ;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
     }
- }
+}
 
- @media screen and (max-width: 600px) {
-    table, td{
-        font-size: 15px;
-        width: 17pc;
-        border-collapse: 1px collapse;
+@media screen and (max-width: 600px) {
+    label{
+        display: block;
     }
- }
+    
+}
