@@ -1,8 +1,9 @@
 @media screen and (max-width: 600px) {
     body{
        display: block;
-       width: 27pc auto;
-       height: 100px;
+       width: 0pc auto;
+       height: 0px;
+       margin: 0;
     }
 }
 
@@ -21,11 +22,20 @@
 
 @media screen and (max-width: 600px) {
     .conteiner{
-        display: flex;
-        align-items: start;
-        flex-direction: column;
-        justify-content: center;
-        width: 15pc auto;
+        display: block;
+        position: relative;
+        top: 0;
+        left: -260px; /* Valor inicial fora da tela */
+        width: 250px;
+        background-color: #f8f9fa;
+        box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+        animation: slideIn 0.5s forwards;
+    }
+}
+
+@keyframes slideIn {
+    to {
+        left: 0;
     }
 }
 
@@ -73,4 +83,17 @@
         outline: none;
     }
     
+}
+
+@media screen and (max-width: 600px) {
+    .Esconder{
+        display: flex;
+        width: 2pc;
+        height: 2px;
+        padding: 2px;
+        border: none;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
 }

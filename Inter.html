@@ -31,7 +31,9 @@
         </div>
     </div>
 
-    <div class="conteiner">
+    <button type="button" class="Esconder" onclick="Mudarestado('minhaDiv')">➜</button>
+
+    <div class="conteiner" id="minhaDiv">
         <select id="materias" name="materias" class="selectm">
             <option value="matematica">Matemática</option>
             <option value="portugues">Português</option>
@@ -57,5 +59,16 @@
 
     <script src="/logar-web/Entrada.js"></script>
     <script src="script.js"></script>
+
+    <script>
+        //tirar a div e colocar
+        function Mudarestado(el) {
+        var display = document.getElementById(el).style.display;
+        if(display == "none")
+            document.getElementById(el).style.display = 'block';
+        else
+            document.getElementById(el).style.display = 'none';
+    }
+    </script>
 </body>
 </html>

@@ -145,3 +145,7 @@ caption{
     padding: 8px;
     cursor: pointer;
 }
+
+.Esconder{
+    display: none;
+}
