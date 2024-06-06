@@ -69,5 +69,4 @@ function limparTabela() {
     localStorage.removeItem('tabelaMaterias'); // Remove os dados do localStorage
 }
 
-// Carregar a tabela quando a página for carregada
 window.onload = carregarTabela;

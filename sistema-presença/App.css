@@ -9,7 +9,16 @@ h2{
 input{
     margin: 0;
     width: 100px;
+    transform: scale(1.4);
     cursor: pointer;    
+}
+
+button{
+    transition: all 0.3s ease;
+}
+
+button:hover{
+    box-shadow: 0 10px 30px rgba(0, 217, 255, 0.1);
 }
 
 .main-center{
@@ -37,12 +46,13 @@ input{
     height: 30px;
     justify-content: center;
     align-items: center;
-    transition: all 0.3s ease;
 }
 
 .main{
+    display: block;
     border: 1px solid #ccc;
     border-radius: 10px;
+    transition: all 0.3s ease;
 }
 
 .main :hover{
@@ -54,6 +64,7 @@ input{
     border-radius: 10px;
     width: 200px;
     margin: 10px;
+    cursor: pointer;
 }
 
 .btnApagar{
@@ -61,5 +72,13 @@ input{
     border-radius: 10px;
     width: 200px;
     margin: 10px;
+    cursor: pointer;
+}
 
+.main-linhanone{
+    display: flex;
+    margin: 10px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
 }

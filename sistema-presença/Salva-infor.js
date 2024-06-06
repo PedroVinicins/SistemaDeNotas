@@ -26,5 +26,5 @@ function resetCheckboxes() {
     alert('Estados resetados!');
 }
 
-// Carregar o estado das checkboxes quando a página é carregada
+// Carregar o estado da checkboxes quando a página é carregada
 window.onload = loadCheckboxes;
