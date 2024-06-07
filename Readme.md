@@ -1,7 +1,7 @@
 # Sistema de Notas e Presenças Escolares
 
 ## Descrição
-O Projeto de Notas e Presenças Escolares foi desenvolvido para ajudar a registrar e organizar as notas e a frequência dos aluno, proporcionando uma melhor organização e acompanhamento do desempenho escolar.
+O Projeto de Notas e Presenças Escolares foi desenvolvido para ajudar a registrar e organizar as notas e a frequência dos aluno, proporcionando uma melhor organização e acompanhamento do desempenho escolar. https://sistemadenotaspebrs.netlify.app/
 
 ## Funcionalidades
 - Registro e gerenciamento de notas dos alunos.
