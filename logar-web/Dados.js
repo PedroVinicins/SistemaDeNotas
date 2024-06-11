@@ -2,9 +2,9 @@ function logar(){
     var login = document.getElementById('login').value;
     var senha = document.getElementById('senha').value;
 
-    if(login == 'Pedro' && senha == 'vinicius'){
+    if(login == 'Pedro' && senha == 'Vinicius'){
         alert('Vamos entrar!!')
-        location.href='/SISTEMA DE NOTAS/Sistema.html';
+        location.href='/Inter.html';
     }else{
         alert('Nome ou senhar Errada!!')
     }

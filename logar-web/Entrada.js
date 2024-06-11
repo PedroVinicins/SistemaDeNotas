@@ -9,7 +9,5 @@ document.getElementById('salvarBtn').addEventListener('click', function() {
 function abrirHTML(pagina) {
     if (pagina === 'logo') {
         window.open('/site-/Meusite.html', '_blank');
-///Notas/index.html
     }
 }
-
