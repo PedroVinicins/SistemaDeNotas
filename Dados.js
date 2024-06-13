@@ -4,7 +4,7 @@ function logar(){
 
     if(login == 'Pedro' && senha == 'Vinicius'){
         alert('Vamos entrar!!')
-        location.href='/Inter.html';
+        location.href='/SIstema-escolar/Inter.html';
     }else{
         alert('Nome ou senhar Errada!!')
     }
