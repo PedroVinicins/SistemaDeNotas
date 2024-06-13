@@ -27,7 +27,7 @@
         top: 0;
         left: -260px; /* Valor inicial fora da tela */
         width: 250px;
-        background-color: #f8f9fa;
+        background-color: #ffffff;
         box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
         animation: slideIn 0.5s forwards;
     }
