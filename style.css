@@ -62,7 +62,8 @@ input{
     position: fixed;
     font-size: x-large;
     text-decoration: none;
-    color: aliceblue;
+    border-radius: 15px;
+    color: rgb(0, 0, 0);
     bottom: 20px; /* Distância da parte inferior da tela */
     right: 20px; /* Distância do lado direito da tela */
     z-index: 1000;
