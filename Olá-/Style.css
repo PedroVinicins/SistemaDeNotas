@@ -1,19 +1,37 @@
+.hte    {color: orange;}
+.Style  {color: blue;}
+.js     {color: yellow;}
+h2      {color: white;}
+
 body{
-    background-color: antiquewhite;
+    background-color: slategrey;
 }
 
-h2{
-    font-family: sans-serif;
-
+header{
+    top: 0;
+    left: 0;
+    width: 100% auto;
+    padding: 20px 100px;
+    background: rgb(66, 66, 66);
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
 }
 
-.text{
-    margin: 100px;
-    width: auto;
-    padding: 12pc;
+.conteiner{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-width: 800px auto;
+    margin: 60px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #ffffff;
+    transition: all 0.3s ease;
 }
 
-p{
-    margin: auto;
-    font-size: large;
+.conteiner:hover{
+    box-shadow: 0 35px 45px rgba(0, 0, 0, 0.1);
 }

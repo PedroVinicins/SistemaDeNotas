@@ -60,6 +60,9 @@ input{
 .usuario-test{
     display: flex;
     position: fixed;
+    font-size: x-large;
+    text-decoration: none;
+    color: aliceblue;
     bottom: 20px; /* Distância da parte inferior da tela */
     right: 20px; /* Distância do lado direito da tela */
     z-index: 1000;

@@ -25,7 +25,7 @@
         display: block;
         position: relative;
         top: 0;
-        left: -260px; /* Valor inicial fora da tela */
+        left: -266px; /* Valor inicial fora da tela */
         width: 250px;
         background-color: #ffffff;
         box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
