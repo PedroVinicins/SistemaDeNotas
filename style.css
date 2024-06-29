@@ -57,14 +57,15 @@ input{
         border-color: 0 10px 30px rgb(255, 255, 255);
     }
 
-.usuario-test{
+.usuario-test {
     display: flex;
     position: fixed;
     font-size: x-large;
-    text-decoration: none;
     border-radius: 15px;
     color: rgb(0, 0, 0);
     bottom: 20px; /* Distância da parte inferior da tela */
     right: 20px; /* Distância do lado direito da tela */
     z-index: 1000;
 }
+
+a{color: rgb(0, 0, 0); text-decoration: none;}
