@@ -6,6 +6,6 @@ function logar(){
         alert('Vamos entrar!!')
         location.href='/SIstema-escolar/Inter.html';
     }else{
-        alert('Nome ou senhar Errada!!')
+        alert('Nome ou senha inválida!!!')
     }
 }
