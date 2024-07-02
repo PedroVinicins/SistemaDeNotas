@@ -10,4 +10,8 @@ function abrirHTML(pagina) {
     if (pagina === 'logo') {
         window.open('/Olá-/Meusite.html', '_blank');
     }
+
+    if (pagina === 'cadastra') {
+        window.open('/Formulario/Sistema.php', '_blank');
+    }
 }
