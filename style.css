@@ -1,4 +1,4 @@
-html,body{ margin: 0; background-image: url(Arte.jpg);}
+html,body{ margin: 0; background-image: url(ArteCDAS.jpg);}
 
 *{
     font-family: sans-serif;
@@ -37,17 +37,17 @@ h4{
     border: solid 1px;
     border-radius: 20px;
     background: #ffffff10;
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(30px);
     transition: all 0.3s ease;
 }
 
 .page:hover{
-    box-shadow: 0 10px 30px rgba(255, 255, 255, 0.1);
+    box-shadow: 0 10px 60px rgba(255, 255, 255, 0.1);
 }
 
 input{
         margin: 10px auto;
-        padding: 8px;
+        padding: 7px;
         border-radius: 10px;
         border: none;
         outline: none;
@@ -71,5 +71,9 @@ input{
 a{color: rgb(0, 0, 0); text-decoration: none;}
 
 .nova-açao{
+    border-radius: 12px;
+    border: none;
+    background-color: transparent;
     font-size: xx-small;
+    color: white;
 }
