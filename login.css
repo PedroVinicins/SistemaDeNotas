@@ -58,3 +58,27 @@ body{font-family: Arial, Helvetica, sans-serif; background: url(ArteCDAS.jpg);}
 #submit:hover{
     background-image: linear-gradient(to right,rgb(0, 172, 43), rgb(19, 145, 195));
 }
+
+.usuario-test {
+    display: flex;
+    position: fixed;
+    font-size: x-large;
+    border-radius: 15px;
+    color: rgb(0, 0, 0);
+    bottom: 20px; /* Distância da parte inferior da tela */
+    right: 20px; /* Distância do lado direito da tela */
+    z-index: 1000;
+}
+
+a{color: rgb(0, 0, 0); text-decoration: none;}
+
+.nova-açao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    font-size: large;
+    background-color: transparent;
+    color: white;
+    border: none;
+}

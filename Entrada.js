@@ -12,6 +12,6 @@ function abrirHTML(pagina) {
     }
 
     if (pagina === 'cadastra') {
-        window.open('NOSSOxSISTEMAxDExCADASTROxAINDAxNAOxNASCEU', '_blank');
+        window.open('/Erro.html', '_blank');
     }
 }
