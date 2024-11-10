@@ -1,84 +1,236 @@
-body{
+body {
     margin: 0;
 }
 
-h2{
-    width: 100px;
+th {
+    width: 60px;
+    font-size: xx-large;
+    text-align: center;
 }
 
-input{
-    margin: 0;
-    width: 100px;
-    transform: scale(1.4);
-    cursor: pointer;    
-}
-
-button{
-    transition: all 0.3s ease;
-}
-
-button:hover{
-    box-shadow: 0 10px 30px rgba(0, 217, 255, 0.1);
-}
-
-.main-center{
+.main-center {
     width: 100vw;
     height: 100vh auto;
     display: flex;
     justify-content: center;
+    text-align: center;
     align-items: center;
     display: flex;
     flex-direction: column;
 }
 
-.main-left{
-    width: 900px;
-    height: 10vh;
-    padding: auto;
-    display: flex; 
-    justify-content: center;
-    align-items: center; 
-}
-
-.main-linha{
+.btn {
     display: flex;
-    margin: 10px;
-    height: 30px;
+    padding: 29px;  
     justify-content: center;
     align-items: center;
+
+    & .btnSalva {
+        width: 150px;
+        height: 50px;
+        margin-right: 12px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        background: #00a600;
+        border: none;
+        border-radius: 5px;
+        box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.15);
+        background: #00a600;
+    }
+
+    & .btnSalva,
+    span {
+        transition: 200ms;
+    }
+
+    .btnSalva .text {
+        transform: translateX(35px);
+        color: white;
+        font-weight: bold;
+    }
+
+    .btnSalva .icon {
+        position: absolute;
+        border-left: 1px solid #007300;
+        transform: translateX(110px);
+        height: 40px;
+        width: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .btnSalva svg {
+        width: 15px;
+        fill: #eee;
+    }
+
+    .btnSalva:hover {
+        background: #00a600;
+    }
+
+    .btnSalva:active {
+        background: #00cc00;
+    }
+
+    .btnSalva:hover .text {
+        color: transparent;
+    }
+
+    button:hover .icon {
+        width: 150px;
+        border-left: none;
+        transform: translateX(0);
+    }
+
+    .btnSalva:focus {
+        outline: none;
+    }
+
+    .btnSalva:active .icon svg {
+        transform: scale(0.8);
+    }
+
+    .buttonSpan {
+        color: white;
+        margin: 150px;
+        font-size: 30px;
+    }
+
+
+    .main-linhanone {
+        display: flex;
+        margin: 10px;
+        height: 30px;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
-.main{
+.btnReseta {
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    background: red;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.15);
+    background: #e62222;
+}
+
+button,
+button span {
+    transition: 200ms;
+}
+
+.btnReseta .text {
+    transform: translateX(35px);
+    color: white;
+    font-weight: bold;
+}
+
+.btnReseta .icon {
+    position: absolute;
+    border-left: 1px solid #c41b1b;
+    transform: translateX(110px);
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btnReseta svg {
+    width: 15px;
+    fill: #eee;
+}
+
+.btnReseta:hover {
+    background: #ff3636;
+}
+
+.btnReseta:hover .text {
+    color: transparent;
+}
+
+.btnReseta:hover .icon {
+    width: 150px;
+    border-left: none;
+    transform: translateX(0);
+}
+
+.btnReseta:focus {
+    outline: none;
+}
+
+.btnReseta:active .icon svg {
+    transform: scale(0.8);
+}
+
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.container {
     display: block;
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    transition: all 0.3s ease;
-}
-
-.main :hover{
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-}
-
-.BtnSalva{
-    border: solid 1px #00ffbf;
-    border-radius: 10px;
-    width: 200px;
-    margin: 10px;
+    position: relative;
     cursor: pointer;
+    font-size: 20px;
+    user-select: none;
 }
 
-.btnApagar{
-    border: solid 1px #ff0000;
-    border-radius: 10px;
-    width: 200px;
-    margin: 10px;
-    cursor: pointer;
+
+.checkmark {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 2.3em;
+    width: 2.3em;
+    margin: 6px;
+    background-color: #ccc;
+    border-radius: 50%;
+    transition: .4s;
 }
 
-.main-linhanone{
-    display: flex;
-    margin: 10px;
-    height: 30px;
-    justify-content: center;
-    align-items: center;
+.checkmark:hover {
+    box-shadow: inset 17px 17px 16px #b3b3b3,
+        inset -17px -17px 16px #ffffff;
+}
+
+.container input:checked~.checkmark {
+    box-shadow: none;
+    background-color: rgba(50, 205, 50, 0.829);
+    transform: rotateX(360deg);
+}
+
+.container input:checked~.checkmark:hover {
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.container input:checked~.checkmark:after {
+    display: block;
+}
+
+.container .checkmark:after {
+    left: 0.96em;
+    top: 0.7em;
+    width: 0.25em;
+    height: 0.5em;
+    border: solid white;
+    border-width: 0 0.15em 0.15em 0;
+    box-shadow: 0.1em 0.1em 0em 0 rgba(0, 0, 0, 0.3);
+    transform: rotate(45deg);
 }
